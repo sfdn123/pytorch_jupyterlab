@@ -12,8 +12,8 @@ c.NotebookApp.ip = '0.0.0.0'
 c.NotebookApp.port = 8888
 c.NotebookApp.open_browser = False
 
-c.NotebookApp.allow_root = True #追加部分
-c.NotebookApp.password = 'sha1:836e3ca15a0b:1addb304dde23197b78f4ac1897483dbda16fe0c'
+c.NotebookApp.allow_root = True # 追加部分
+c.NotebookApp.password = None # パスワード追記
 
 # https://github.com/jupyter/notebook/issues/3130
 c.FileContentsManager.delete_to_trash = False
